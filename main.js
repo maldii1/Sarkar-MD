@@ -45,7 +45,7 @@ async function downloadSessionData() {
     const _0x5a3e5f = await _0x5a7360.get(_0x170b41);
     const _0x7f614 = typeof _0x5a3e5f.data === 'string' ? _0x5a3e5f.data : JSON.stringify(_0x5a3e5f.data);
     await _0x5687e2.promises.writeFile(credsPath, _0x7f614);
-    console.log("🌏Sarkar-MD ONLINE🌏");
+    console.log("🌏 ONLINE🌏");
     return true;
   } catch (_0x100795) {
     return false;
@@ -76,7 +76,7 @@ async function start() {
           return _0x406fd9.message || undefined;
         }
         return {
-          'conversation': "BEST WHATSAPP BOT MADE BY Sarkar Bandaheali"
+          'conversation': "BEST WHATSAPP BOT MADE UNDER DEVELOPMENT"
         };
       }
     });
@@ -91,9 +91,9 @@ async function start() {
         }
       } else if (_0x237ed1 === 'open') {
         if (initialConnection) {
-          console.log(_0x4b0fc4.green("Sarkar-MD MD CONNECTED SUCCESSFULLY ✅"));
+          console.log(_0x4b0fc4.green(" CONNECTED SUCCESSFULLY ✅"));
           _0x76bf4.sendMessage(_0x76bf4.user.id, {
-            'text': "╭─────────────━┈⊷\n│ *sarkar ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Sarkar-ᴍᴅ*\n│👨‍💻 ᴏᴡɴᴇʀ : *Sarkar Bandaheali*\n╰─────────────━┈⊷\n\n*Message Me on whatsapp 😈*\n_https://wa.me/923253617422_"
+            'text': "╭─────────────━┈⊷\n│ *MESCHO ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *JUST-BOT*\n│👨‍💻 ᴏᴡɴᴇʀ : *ESCALITO*\n╰─────────────━┈⊷\n\n*Message Me on whatsapp 😈*\n_https://wa.me/254795402999_"
           });
           initialConnection = false;
         } else {
@@ -136,7 +136,7 @@ async function init() {
   } else {
     const _0x17d9d4 = await downloadSessionData();
     if (_0x17d9d4) {
-      console.log("Sarkar-MD IS RUNNING...⏳");
+      console.log("BOT IS RUNNING...⏳");
       await start();
     } else {
       console.log("Session id error ❌");
@@ -147,8 +147,8 @@ async function init() {
 }
 init();
 app.get('/', (_0x1ecf21, _0x282bcc) => {
-  _0x282bcc.send("SARKAR-MD IS CONNECTED SUCCESSFULLY ✅");
+  _0x282bcc.send("BOT IS CONNECTED SUCCESSFULLY ✅");
 });
 app.listen(PORT, () => {
-  console.log("Sarkar-MD daily users " + PORT);
+  console.log("ESCHONINCO daily users " + PORT);
 });
